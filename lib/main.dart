@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:row_and_column/screen/home_screen.dart';
+import 'package:row_and_column/screen/row_and_column_test.dart';
 
 void main() {
-  runApp(HomeScreen());
+  runApp(
+      MaterialApp(
+        home: RowAndColumnTest(),
+      ),
+  );
 }
